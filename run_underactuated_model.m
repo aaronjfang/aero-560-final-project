@@ -24,3 +24,8 @@ eps_w = 1.0e-6;
 
 % Gimbal Rate Restriction
 delta_dot_max = 1.0;
+
+% Initial Conditions
+w_0 = [0.2; -0.3];
+z_0 = [0.5];
+omega_0 = [0; 0; 0];
