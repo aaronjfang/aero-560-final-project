@@ -66,4 +66,12 @@ ylabel("Z Parameter")
 
 legend(legstr)
 
-figure(1003); plot(delta_maxes, times, 'LineWidth', 1.0); xlabel("Gimbal Limit (deg)"); ylabel("2% Settling Time (s)")
+%% PLotting
+figure(1003);
+yyaxis left
+plot(delta_maxes, times, 'LineWidth', 1.0); 
+xlabel("Gimbal Limit (deg)"); 
+ylabel("2% Settling Time (s)")
+yyaxis right
+plot(delta_maxes(2:end), diff(times),'LineWidth', 1.0)
+ylabel("Settling Time Improvement (s)")
