@@ -8,9 +8,9 @@ h0 = 0.3;
 
 
 % Orbital Parameters
-alp_0 = 0.01;
+alpha_0 = 0.01;
 eps_0 = 0.01;
-kap = 5.0;
+kappa = 5.0;
 omega_bar = 0.01;
 phi = 0.1;
 
@@ -26,6 +26,6 @@ eps_w = 1.0e-6;
 delta_dot_max = 1.0;
 
 % Initial Conditions
-w_0 = [0.0; 0.0]; %[0.2; -0.3];
-z_0 = [0.6]%[0.5];
+w_0 = [0.2; -0.3];
+z_0 = [0.5];
 omega_0 = [0; 0; 0];
