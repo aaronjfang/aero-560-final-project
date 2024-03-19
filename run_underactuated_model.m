@@ -7,7 +7,7 @@ J = diag([1.675 1.750 2.700]);
 h0 = 0.3;
 
 
-% Orbital Parameters
+% Control Law Parameters
 alpha_0 = 0.01;
 eps_0 = 0.01;
 kappa = 5.0;
