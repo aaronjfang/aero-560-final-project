@@ -36,6 +36,8 @@ omega_0 = [0; 0; 0];
 delta_max = 90;
 delta_min = -90;
 
+tspan = 25;
+
 out = sim("underactuated_model.slx");
 
 %% Plotting
